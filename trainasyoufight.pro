@@ -7,9 +7,11 @@ SOURCES += \
         inventory.cpp \
         main.cpp \
         playerai.cpp \
+        playerclass.cpp \
         playerone.cpp
 
 HEADERS += \
     inventory.h \
     playerai.h \
+    playerclass.h \
     playerone.h
