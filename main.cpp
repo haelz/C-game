@@ -1,12 +1,16 @@
 #include <iostream>
-#include "playerai.h"
+#include <playerone.h>
+#include <vector>
+#include <string>
+
 using namespace std;
 
 int main()
 {
-    int fight = 999;
-    int life = 100;
-    int combo = 0;
-   life = fight - combo;
+karakters playereen;
+
+
+    cout << "Name of your fighter:"<< endl;
+    getline(cin,playereen.name);
     return 0;
 }

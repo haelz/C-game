@@ -1,11 +1,14 @@
 #ifndef PLAYERONE_H
 #define PLAYERONE_H
+#include <string>
+#include "karakters.h"
 
-
-class Playerone
+class playerone : public karakters
 {
 public:
-    Playerone();
+
+    playerone();
+    ~playerone();
 };
 
 #endif // PLAYERONE_H

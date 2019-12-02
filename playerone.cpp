@@ -1,6 +1,6 @@
 #include "playerone.h"
 
-Playerone::Playerone()
+playerone::playerone()
 {
 
 }
