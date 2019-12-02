@@ -3,22 +3,28 @@
 #include <iostream>
 #include <string>
 
-using namespace std;
+//using namespace std;
 
 class karakters
 {
 public:
-    karakters(){string name; health = 0;  strength = 0; speed = 0;} //constructor
-    ~karakters(); //destructor
+    karakters(); //constructor
+    ~karakters(){} //destructor
 
+    //setter
+    void setname(std::string na){name = na;} //change variable
+    void sethealth(int he){health = he;}
+    void setstrength(int st){strength = st;}
+    void setspeed(int sp){speed = sp;}
 
-    string get_name() {return name;} // member Function
-    int get_health() {return health;}
-    int get_strenght() {return strength;}
-    int get_speed() {return speed;}
+    //getter
+    std::string getname(){return name;}
+    int gethealth(){return health;}
+    int getstrengt(){return strength;}
+    int getspeed(){return speed;}
 
-    protected:
-    string name;        // Member variable
+private:
+    std :: string name;        // Member variable
     int health = 0;
     int strength = 0;
     int speed = 0;

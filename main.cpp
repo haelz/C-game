@@ -1,16 +1,19 @@
 #include <iostream>
 #include <playerone.h>
+#include <karakters.h>
+
 #include <vector>
 #include <string>
+#include <conio.h>
 
 using namespace std;
 
 int main()
 {
-karakters playereen;
+    int speed=0;
+    karakters player;
+    player.setname("this is law");
+    player.setspeed(speed);
 
-
-    cout << "Name of your fighter:"<< endl;
-    getline(cin,playereen.name);
     return 0;
 }
