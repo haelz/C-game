@@ -16,7 +16,7 @@ public:
     void sethealth(int he){health = he;}
     void setstrength(int st){strength = st;}
     void setspeed(int sp){speed = sp;}
-
+    virtual int pakslaag() = 0;
     //getter
     std::string getname(){return name;}
     int gethealth(){return health;}
