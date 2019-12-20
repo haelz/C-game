@@ -9,6 +9,7 @@ public:
 
     playerone();
     ~playerone();
+
 };
 
 #endif // PLAYERONE_H

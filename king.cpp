@@ -3,5 +3,5 @@
 king::king()
 {
 
-
+    int king;
 }

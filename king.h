@@ -23,6 +23,7 @@ class king : public enemy
     }
 
 
+
 };
 
 #endif // KING_H

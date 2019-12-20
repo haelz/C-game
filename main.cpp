@@ -13,6 +13,7 @@ int main()
     int speed=0;
     karakters player;
     player.setname("this is law");
+    playerone("Pai");
     player.setspeed(speed);
 
     return 0;

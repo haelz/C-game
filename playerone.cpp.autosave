@@ -1,0 +1,6 @@
+#include "playerone.h"
+
+playerone::playerone()
+{
+    int pai;
+}

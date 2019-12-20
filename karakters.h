@@ -28,6 +28,7 @@ private:
     int health = 0;
     int strength = 0;
     int speed = 0;
+
 };
 
 #endif // KARAKTERS_H
