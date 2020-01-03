@@ -1,29 +1,11 @@
 #ifndef KING_H
 #define KING_H
+#include "karakters.h"
 
-#include "enemy.h"
-#include <string>
-#include <iostream>
-
-class king : public enemy
+class king : public karakters
 {
-    public:
-    ~king();
-    king()
-    {
-        this->setname("king");
-        this->setspeed(100);
-        this->sethealth(100);
-        this->setstrength(100);
-    }
-
-    king(std::string na,int sp,int he, int st)
-    {
-        this->getname() = na
-    }
-
-
-
+public:
+    king();
 };
 
 #endif // KING_H

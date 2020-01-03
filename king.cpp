@@ -1,7 +1,6 @@
 #include "king.h"
 
-king::king()
+King::King()
 {
 
-    int king;
 }

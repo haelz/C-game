@@ -4,14 +4,14 @@ CONFIG -= app_bundle
 CONFIG -= qt
 
 SOURCES += \
-        inventory.cpp \
+        ../../C++_CSGO_Project/CSGO Project/csgo_project/law.cpp \
+        karakters.cpp \
+        king.cpp \
         main.cpp \
-        playerai.cpp \
-        playerclass.cpp \
-        playerone.cpp
+        player.cpp
 
 HEADERS += \
-    inventory.h \
-    playerai.h \
-    playerclass.h \
-    playerone.h
+    ../../C++_CSGO_Project/CSGO Project/csgo_project/law.h \
+    karakters.h \
+    king.h \
+    player.h
