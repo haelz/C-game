@@ -4,15 +4,16 @@ CONFIG -= app_bundle
 CONFIG -= qt
 
 SOURCES += \
-        enemy.cpp \
-        karakters.cpp \
-        king.cpp \
+        game.cpp \
         main.cpp \
-        playerone.cpp
+        personages.cpp \
+        playerperson.cpp
 
 HEADERS += \
+    bear.h \
     enemy.h \
-    intro.h \
-    karakters.h \
-    king.h \
-    playerone.h
+    fight.h \
+    game.h \
+    ninja.h \
+    personages.h \
+    playerperson.h

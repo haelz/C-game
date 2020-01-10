@@ -1,17 +1,22 @@
 #ifndef ENEMY_H
 #define ENEMY_H
-#include "karakters.h"
+#include <iostream>
+#include "personages.h"
+#include "bear.h"
 
-class enemy : public karakters
+
+class Enemy : public Personages
 {
 public:
-    enemy();
+    Enemy(int force);                                   //specific constructor
 
-private:
-    int kickdamage;
-    int punchdamage;
-    int slamdamage;
-    int dropkickdamage;
+     virtual int fight(int forcea,int forceb)=0;    //member function
+
+//int getforce()const{return this->force;}
+ //int force;
+
+protected:
+    int force;
 };
 
 #endif // ENEMY_H
